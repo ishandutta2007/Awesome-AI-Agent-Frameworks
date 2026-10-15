@@ -28,7 +28,8 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
-- [SaaS/Hosted Platforms](#saas-products)
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
 
@@ -38,65 +39,23 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
+## Sector Overview & Market Dynamics
+
+The global AI Agent market is projected to grow from ~$8 billion in 2025 to over $50 billion by 2030 at a CAGR exceeding 45%. The market landscape is dual-structured: it remains **moderately to highly fragmented** across vertical-specific agent builders and workflow tooling startups, while remaining **highly concentrated** at the core enterprise infrastructure, orchestration, and foundational model layers dominated by major cloud hyperscalers.
+
 ## SaaS/Hosted Platforms
 
-- **[LangChain / LangSmith](https://www.langchain.com/)**  
-
-  Ecosystem and commercial platform built around the open-source LangChain library, offering tracing, evaluation, deployment, and enterprise support for agent applications.
-
-
-
-- **[Microsoft AutoGen / Agent Framework offerings](https://microsoft.github.io/autogen/)**  
-
-  Microsoft’s multi-agent conversation framework and related enterprise tooling for building collaborative agent systems (with migration paths toward Microsoft Agent Framework).
-
-
-
-- **[CrewAI Enterprise](https://www.crewai.com/)**  
-
-  Hosted and enterprise offerings built on the open-source CrewAI multi-agent framework for role-based agent teams and production workflows.
-
-
-
-- **[Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/)**  
-
-  Microsoft’s open SDK and associated cloud/enterprise guidance for integrating LLMs into applications with planners, plugins, and agent patterns.
-
-
-
-- **[Haystack](https://haystack.deepset.ai/)**  
-
-  NLP and LLM framework from deepset with commercial support options; widely used for RAG pipelines and agent-style applications.
-
-
-
-- **[Flowise](https://flowiseai.com/)**  
-
-  Low-code / no-code platform for building LLM chains and agents with a visual interface (open-source core with hosted options).
-
-
-
-- **[LangGraph Cloud / LangGraph Platform](https://www.langchain.com/langgraph)**  
-
-  Managed offering for deploying and scaling stateful LangGraph agents with persistence, monitoring, and production features.
-
-
-
-- **[Dify](https://dify.ai/)**  
-
-  Open-source LLM application platform with visual workflow builder, agent support, and commercial cloud hosting options.
-
-
-
-- **[DSPy](https://dspy.ai/)**  
-
-  Framework for programming (not just prompting) language models; research-originated with growing tooling and community support.
-
-
-
-- **[SuperAGI](https://superagi.com/)**  
-
-  Open-source agent framework with commercial/cloud offerings focused on autonomous agents and tool-using workflows.
+| Platform | Company Valuation / Size | Starting Paid Tier Pricing | Free Tier / Trial Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft AutoGen / Azure AI Foundry Agent Service](https://learn.microsoft.com/en-us/azure/ai-studio/concepts/agent-service)** | $4.0+ Trillion Market Cap (Microsoft) | $0 platform fee (PAYGO compute at ~$0.05/container hr for custom hosted agents + model token consumption) | Free forever platform orchestration (No extra management fee; default quotas: up to 100k messages/thread, 128 tools/agent, 300GB storage; users bring own Azure credits or standard model quotas) | Enterprise-grade agent service supporting AutoGen and Microsoft Agent Framework with fully managed state, tool execution, and security. |
+| **[Semantic Kernel / Azure AI](https://learn.microsoft.com/en-us/semantic-kernel/)** | $4.0+ Trillion Market Cap (Microsoft) | $0 SDK / Azure PAYGO model token consumption | 30-day Azure free trial with $200 credits; free SDK use with no seat fees (resource usage bounded only by Azure subscription quotas) | Enterprise SDK and cloud orchestration connecting LLM plugins, memories, and planner-driven agentic architectures. |
+| **[Flowise](https://flowiseai.com/)** | ~$48 Billion Market Cap (Acquired by Workday) | $35/month (Starter tier) | Free forever plan: 2 flows/assistants, 100 predictions/month, 5 MB storage, and community support | Low-code / visual canvas interface to design and deploy agent chains, vector retrieval, and custom multi-agent logic. |
+| **[LangChain / LangSmith](https://www.langchain.com/)** | $1.25 Billion Valuation (~$15M ARR) | $39/seat/month (Plus tier) | Free forever Developer plan: 1 user seat, 5,000 base traces/month (strictly hard-capped without credit card), 14-day data retention | Comprehensive LLMOps, evaluation, and observability control plane for AI agents and multi-agent chains. |
+| **[LangGraph Platform](https://www.langchain.com/langgraph)** | $1.25 Billion Valuation (~$15M ARR; LangChain) | $39/seat/month (LangSmith Plus base + usage) | Free forever Developer plan: 1 user seat, 100,000 node executions/month, 1 local/self-hosted Lite deployment, 5,000 LangSmith traces | Managed cloud deployment, persistence layer, task queuing, and streaming server for cyclic, stateful multi-agent workflows. |
+| **[Dify](https://dify.ai/)** | $180 Million Valuation ($30M Series Pre-A) | $59/workspace/month (Professional tier) | Free forever Sandbox plan: 1 team member, 200 system message credits, up to 5 apps, 50 MB knowledge base / 50 documents | Visual generative AI application platform and workflow builder for autonomous agents, RAG, and prompt management. |
+| **[CrewAI Enterprise](https://www.crewai.com/)** | $50M - $100M Valuation ($18M funding) | $99/month (Starter / entry cloud tier; custom enterprise contracts from $6,000/year) | Free forever Basic plan: 1 user seat, 50 workflow executions/month, access to visual agent studio, guardrails, and templates | Managed orchestration workspace for defining, monitoring, and deploying role-based collaborative AI agent teams. |
+| **[Haystack / deepset Studio](https://haystack.deepset.ai/)** | ~$46 Million Funding (~$12.5M ARR; deepset) | Custom enterprise licensing / AWS Marketplace contracts (contact sales) | Free forever Studio tier: 1 user, 1 workspace, 100 pipeline hours, 2 development pipelines, 50 files max (up to 10MB/file), 14-day logs | Enterprise platform and production suite built atop the open-source Haystack pipeline framework for RAG and agent systems. |
+| **[SuperAGI Cloud](https://superagi.com/)** | $25M - $50M Valuation (~$12M funding) | $49/user/month (Pro plan) | Free forever plan: 100 AI credits/month, 2 outbound email agents, 20–25 prospects/day outreach cap, basic agentic CRM | Cloud-hosted autonomous agent workspace focused on self-directing workflow execution, sales prospecting, and tool-augmented agents. |
 
 
 
