@@ -8,7 +8,7 @@
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
 <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-[![GitHub Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Agent-Frameworks?style=social)](https://github.com/ishandutta2007/Awesome-AI-Agent-Frameworks/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Agent-Frameworks?style=social)](https://github.com/ishandutta2007/Awesome-AI-Agent-Frameworks/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-Agent-Frameworks?style=social)](https://github.com/ishandutta2007/Awesome-AI-Agent-Frameworks/network/members)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-AI-Agent-Frameworks/pulls)
@@ -66,7 +66,7 @@ The following commercial and enterprise platforms provide managed infrastructure
 
 ## 🔓 Open-Source GitHub Projects
 
-The open-source AI agent ecosystem represents the most rapidly expanding area of developer innovation. Repositories below are equipped with live star count badges (linking directly to stargazers) and sorted strictly by **GitHub star count (descending)**.
+The open-source AI agent ecosystem represents the most rapidly expanding area of developer innovation. Repositories below are equipped with live Stars_Count badges (linking directly to stargazers) and sorted strictly by **GitHub Stars_Count (descending)**.
 
 - **[AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)** [![Stars](https://img.shields.io/github/stars/Significant-Gravitas/AutoGPT?style=social&color=white)](https://github.com/Significant-Gravitas/AutoGPT/stargazers)  
   ⚡ The pioneering vision of autonomous AI agents: an open-source platform enabling developers to build, orchestrate, and run autonomous agents that break down high-level objectives into tasks and tool executions.
